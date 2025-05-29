@@ -27,15 +27,6 @@ Bu proje, dijital dünyadaki ayak izlerini takip ederek kamuya açık verileri (
 - **2320191002** - Ahmet Can Kılıçarslan: Gelişitirici ve proje yöneticisi 
   *Ad Soyad: Rolü veya Katkısı*
 - **Another Member** - Emirhan Akdoğan: Gelişitirici ve proje yöneticisi 
-
-
----
-
-## Roadmap / *Yol Haritası*
-
-See our plans in [ROADMAP.md](ROADMAP.md).  
-*Yolculuğu görmek için [ROADMAP.md](ROADMAP.md) dosyasına göz atın.*
-
 ---
 
 ## Research / *Araştırmalar*
@@ -48,59 +39,20 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 ---
 
-## Installation / *Kurulum*
-
-1. **Clone the Repository / *Depoyu Klonlayın***:  
-   ```bash
-   git clone https://github.com/Ahmetcngo/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
-
-2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Dependencies / *Bağımlılıkları Yükleyin***:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## Usage / *Kullanım*
-
-Run the project:  
-*Projeyi çalıştırın:*
-
-```bash
-python main.py --input your_file.pcap --output results.txt
-```
-
-**Steps**:  
-1. Prepare input data (*explain data needed*).  
-2. Run the script with arguments (*explain key arguments*).  
-3. Check output (*explain where to find results*).  
-
-*Adımlar*:  
-1. Giriş verilerini hazırlayın (*ne tür verilere ihtiyaç duyulduğunu açıklayın*).  
-2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
-3. Çıktıyı kontrol edin (*sonuçları nerede bulacağınızı açıklayın*).
-
----
-
 ## Contributing / *Katkıda Bulunma*
 
-We welcome contributions! To help:  
-1. Fork the repository.  
-2. Clone your fork (`git clone git@github.com:YOUR_USERNAME/YOUR_REPO.git`).  
-3. Create a branch (`git checkout -b feature/your-feature`).  
-4. Commit changes with clear messages.  
-5. Push to your fork (`git push origin feature/your-feature`).  
-6. Open a Pull Request.  
+Projenize yapacağınız tüm katkıları memnuniyetle karşılıyoruz! Geliştirmemize yardımcı olmak için aşağıdaki adımları izleyebilirsiniz:
 
-Follow our coding standards (see [CONTRIBUTING.md](CONTRIBUTING.md)).  
+1. Depoyu fork'layın (çatallayın). 
+2. Kendi fork'unuzu klonlayın: (`git clone https://github.com/AhmetCanKilicaslan/OSINT-TERSINE_MUHENDISLIK.git
+cd OSINT_TERSINE_MUHENDISLIK`).  
+3. Yeni bir özellik veya hata düzeltmesi için bir dal (branch) oluşturun (`git checkout -b feature/yeni-ozellik-adi
+# Veya hata düzeltmesi için: bugfix/hata-duzeltmesi-adi`).  
+4. Değişikliklerinizi yapın ve anlaşılır mesajlarla kaydedin  
+5. Değişikliklerinizi kendi fork'unuza itin  (`git push origin feature/yeni-ozellik-adi`).  
+6. GitHub üzerinden bir Çekme İsteği (Pull Request) açın.  
+
+Lütfen kodlama standartlarımıza uyun (see [CONTRIBUTING.md](CONTRIBUTING.md)).  
 
 *Topluluk katkilerini memnuniyetle karşılıyoruz! Katkıda bulunmak için yukarıdaki adımları izleyin ve kodlama standartlarımıza uyun.*
 
@@ -109,28 +61,18 @@ Follow our coding standards (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 ## License / *Lisans*
 
 Licensed under the [MIT License](LICENSE.md).  
-*MIT Lisansı altında lisanslanmıştır.*
 
 ---
 
 ## Acknowledgements / *Teşekkürler* (Optional)
 
-Thanks to:  
-- Awesome Library: For enabling X.  
-- Inspiration Source.  
-- Special thanks to...  
+Teşekkürler
+Bu projenin geliştirilmesinde bize ilham veren ve destek olan herkese teşekkür ederiz:
 
-*Teşekkürler: Harika kütüphaneler ve ilham kaynakları için.*
+Sayın Hocam Keyvan Arasteh: Rehberliği ve şablon desteği için.
+Kullanılan tüm açık kaynak kütüphaneler ve araçlar: Projenin temelini oluşturan requests, BeautifulSoup4, python-whois, dnspython, Pillow, pypdf, python-docx, networkx gibi harika kütüphaneler için.
+Tersine mühendislik ve OSINT topluluğu: İlham veren araştırmaları ve araçlarıyla projemize yol gösteren tüm topluluk üyelerine.
+İletişim
+Proje Sorumlusu: Ahmet Can Kılıçarslan - kilicarslanahmet59@gmail.com
 
----
-
-## Contact / *İletişim* (Optional)
-
-Project Maintainer: [Your Name/Org Name] - [your.email@example.com]  
-Found a bug? Open an issue.  
-
-*Proje Sorumlusu: [Adınız/Kuruluş Adınız] - [e-posta.adresiniz@ornek.com]. Hata bulursanız bir sorun bildirin.*
-
----
-
-*Replace placeholders (e.g., YOUR_USERNAME/YOUR_REPO) with your project details.*
+Bir hata mı buldunuz, yeni bir özellik öneriniz mi var veya projemiz hakkında konuşmak mı istersiniz? Lütfen bir GitHub Sorunu (Issue) açın veya doğrudan benimle iletişime geçin!
